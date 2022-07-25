@@ -83,6 +83,7 @@ return packer.startup(function(use)
 	use("moll/vim-bbye")
 	use("famiu/bufdelete.nvim")
 	use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
+  use 'nvim-lualine/lualine.nvim'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
