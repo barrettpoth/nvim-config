@@ -85,6 +85,8 @@ return packer.startup(function(use)
   use("jose-elias-alvarez/null-ls.nvim") -- for formatters and linters
   use 'nvim-lualine/lualine.nvim'
   use "akinsho/toggleterm.nvim"
+  use "folke/which-key.nvim"
+
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
