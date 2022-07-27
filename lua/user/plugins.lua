@@ -46,7 +46,7 @@ return packer.startup(function(use)
   use("nvim-lua/plenary.nvim") -- Useful lua functions used ny lots of plugins
 
   -- colorschemes
-  use("EdenEast/nightfox.nvim")
+  use('navarasu/onedark.nvim')
 
   -- cmp plugins
   use("hrsh7th/nvim-cmp") -- The completion plugin
