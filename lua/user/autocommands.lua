@@ -20,4 +20,8 @@ vim.cmd [[
     autocmd!
     autocmd VimResized * tabdo wincmd = 
   augroup end
+  augroup _unfold
+    autocmd!
+    autocmd BufWinEnter * normal zR
+  augroup end
 ]]

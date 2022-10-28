@@ -92,6 +92,7 @@ return packer.startup(function(use)
       require "surround".setup { mappings_style = "surround" }
     end
   }
+  use 'tpope/vim-eunuch'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins

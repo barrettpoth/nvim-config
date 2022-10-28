@@ -28,7 +28,7 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 -- Navigate buffers
 keymap("n", "<S-l>", ":BufferLineCycleNext<CR>", opts)
 keymap("n", "<S-h>", ":BufferLineCyclePrev<CR>", opts)
-keymap("n", "<Leader>c", ":Bdelete<CR>", opts)
+keymap("n", "<Leader>c", ":Bdelete!<CR>", opts)
 
 -- Telescope
 keymap(
@@ -54,9 +54,6 @@ keymap("n", "<localleader>f", ":Format<cr>", opts)
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
-
--- Don't replace item in register when paste over highlighted item
-keymap("v", "p", '"_dP', opts)
 
 -- Visual Block --
 -- Move text up and down
